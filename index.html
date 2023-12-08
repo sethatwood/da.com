@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="icon"
+      type="image/png"
+      href="img/favicon-32x32.png"
+      sizes="32x32"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="img/favicon-16x16.png"
+      sizes="16x16"
+    />
+    <title>Dean Atwood Author</title>
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://use.fontawesome.com/eee1970d80.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alegreya+SC:wght@400;700&family=Alegreya+Sans:wght@400;700&family=Alegreya:wght@400;700;900&family=Share+Tech+Mono&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      .hero-section {
+        background: linear-gradient(
+            rgba(20, 20, 20, 0.25),
+            rgba(20, 20, 20, 0.25)
+          ),
+          url("./img/dean-atwood-portrait.jpg") 50% no-repeat;
+        background-size: cover;
+        height: 55vh;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .hero-section-text {
+        color: white;
+      }
+
+      .hero-section-text h1 {
+        font-family: "Alegreya SC", serif;
+        font-size: 6vw;
+        letter-spacing: 4px;
+        margin-bottom: 0;
+        text-shadow: 1px 1px 2px black;
+      }
+
+      .hero-section-text h5 {
+        font-size: 2vw;
+        font-weight: 400;
+        font-family: "Alegreya Sans", sans-serif;
+        margin-top: -0.2em;
+        text-shadow: 1px 1px 1px black;
+        letter-spacing: 1px;
+      }
+
+      .facet {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between; /* Pushes content to the top and button to the bottom */
+        height: 100%; /* Ensures all facets have the same height */
+      }
+
+      .copy p,
+      .facet p {
+        font-size: 1.2rem;
+        font-weight: 400;
+        line-height: 1.4;
+        text-align: center;
+      }
+
+      .facet h2,
+      .facet h5 {
+        text-align: center;
+      }
+
+      .facet h5 {
+        margin-bottom: 1rem; /* Adjust as needed */
+        border-bottom: 2px solid #ddd; /* Adds a border under the Amazon button */
+        padding-bottom: 1rem; /* Adds space between the button and the border */
+      }
+
+      .facet h5 a {
+        color: white;
+        background: #ff9900;
+        text-shadow: 1px 1px 1px #774202;
+        padding: 0.75rem 1.5rem; /* Increased padding */
+        border-radius: 3px;
+        font-size: 1.5rem; /* Increased font size */
+        font-weight: 700;
+        display: inline-block; /* Aligns the icon and text properly */
+        text-align: center;
+        vertical-align: middle;
+      }
+
+      .facet h5 a i {
+        margin-right: 0.25rem; /* Adds spacing between the icon and the text */
+      }
+
+      .icon img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+      }
+
+      .intro {
+        max-width: 720px; /* Adjust this value as needed */
+        margin: 0 auto; /* Centers the intro in the page */
+        padding: 2em 2em 0 2em;
+      }
+
+      /* Style for the copyright footer */
+      footer {
+        text-align: center;
+        padding: 1em 0;
+      }
+
+      @media (min-width: 768px) {
+        .facet {
+          padding-bottom: 2em;
+        }
+      }
+
+      /* Use this style for larger screens where you have enough height to justify the content between */
+      @media (min-width: 768px) {
+        .facet {
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between; /* Push content to the top and button to the bottom */
+          height: 100%; /* Ensure all facet containers are full height */
+        }
+
+        /* Optional: set a minimum height for the facet containers */
+        .facet {
+          min-height: 450px; /* Adjust the min-height as needed */
+        }
+      }
+
+      /* Ensure the Amazon button is at the bottom and the text doesn't overlap */
+      .facet h5 {
+        margin-top: auto;
+        padding-top: 1rem; /* Add space above the button */
+      }
+    </style>
+  </head>
+
+  <body class="home page-template-default page page-id-4 page-home">
+    <div class="hero-section">
+      <div class="hero-section-text">
+        <h1>Dean Atwood</h1>
+        <h5>Chief Information Officer turned Writer</h5>
+      </div>
+    </div>
+
+    <section class="intro">
+      <div class="copy">
+        <p>
+          DEAN ATWOOD was born and raised in Rutland, Vermont. He and his wife
+          raised their four children in Crozet, Virginia and have lived there
+          for the past twenty-one years. After finishing a successful career as
+          a Chief Information Officer, he now devotes his time to writing
+          fiction.
+        </p>
+        <p>
+          <a href="https://www.facebook.com/author.dean.atwood/" target="_blank"
+            ><i class="fa fa-facebook-official" aria-hidden="true"></i></a
+          >&nbsp;&nbsp;&nbsp;<a
+            href="mailto:dean.maurice.atwood@gmail.com"
+            target="_blank"
+            ><i class="fa fa-envelope" aria-hidden="true"></i
+          ></a>
+        </p>
+      </div>
+    </section>
+
+    <section class="facets container">
+      <div class="row">
+        <div
+          class="col-md-6 col-12 facet ideator d-flex flex-column justify-content-between"
+        >
+          <div class="icon">
+            <img src="img/target-cover.jpg" alt="The Secret Target Cover" />
+          </div>
+          <h2>The Secret Target</h2>
+          <p>
+            <strong
+              >What would Thomas Jefferson think about a Defense Intelligence
+              Agency facility being located a few miles from the University of
+              Virginia?</strong
+            ><br />&nbsp;<br />&nbsp;
+          </p>
+          <p>
+            FBI Agent Quinton Target suspects his NSA cyber analyst girlfriend
+            may be unfaithful. While investigating her suspected infidelity, he
+            becomes entangled with a secret interagency intelligence operation,
+            which is being led by the DIA in Charlottesville, Virginia.
+          </p>
+          <p><strong>GET YOUR COPY TODAY:</strong></p>
+          <h5>
+            <a
+              href="https://www.amazon.com/Secret-Target-Quinton-Suspense-Thriller-ebook/dp/B07DDF9R8W/"
+              target="_blank"
+              ><i class="fa fa-amazon" aria-hidden="true"></i> Amazon</a
+            >
+          </h5>
+        </div>
+        <div
+          class="col-md-6 col-12 facet ideator d-flex flex-column justify-content-between"
+        >
+          <div class="icon">
+            <img
+              src="img/easy-target-cover.jpg"
+              alt="She's An Easy Target Cover"
+            />
+          </div>
+          <h2>She's An Easy Target</h2>
+          <p>
+            <strong
+              >Someone thinks that being blonde and beautiful makes a woman an
+              easy target. NSA Analyst Blaire Saunders, with the assistance of
+              FBI Agent Quinton Target, intends to prove otherwise in this
+              suspense packed sequel to<br />THE SECRET TARGET.</strong
+            >
+          </p>
+          <p>
+            They planned to have a quiet dinner and a few drinks at the
+            Charlottesville, VA Downtown Mall to jumpstart their stagnating
+            relationship; however, an unexpected disruption puts a damper on the
+            evening and foreshadows a devastating series of events to follow.
+          </p>
+          <p><strong>GET YOUR COPY TODAY:</strong></p>
+          <h5>
+            <a
+              href="https://www.amazon.com/Shes-Target-Quinton-Suspense-Thriller/dp/1690181362/"
+              target="_blank"
+              ><i class="fa fa-amazon" aria-hidden="true"></i> Amazon</a
+            >
+          </h5>
+        </div>
+      </div>
+      <div class="row">
+        <div
+          class="col-md-6 col-12 facet ideator d-flex flex-column justify-content-between"
+        >
+          <div class="icon">
+            <img src="img/tower-cover.jpg" alt="The Retreat Tower Cover" />
+          </div>
+          <h2>The Retreat Tower</h2>
+          <p>
+            <strong
+              >This thriller will take you inside an insane asylum in
+              Brattleboro, VT, where a few, seemingly normal, patients have been
+              committed. The novel will keep you guessing about who’s sane and
+              who’s not.</strong
+            >
+          </p>
+          <p>
+            When a woman falls from an iconic tower located on the grounds of
+            The Brattleboro Retreat, a patient, claiming to be an undercover
+            detective becomes obsessed with finding the truth about her death.
+          </p>
+          <p><strong>GET YOUR COPY TODAY:</strong></p>
+          <h5>
+            <a
+              href="https://www.amazon.com/RETREAT-TOWER-Dean-Atwood-ebook/dp/B01N54SNMR/"
+              target="_blank"
+              ><i class="fa fa-amazon" aria-hidden="true"></i> Amazon</a
+            >
+          </h5>
+        </div>
+        <div
+          class="col-md-6 col-12 facet ideator d-flex flex-column justify-content-between"
+        >
+          <div class="icon">
+            <img src="img/valencia-cover.jpg" alt="Agua De Valencia Cover" />
+          </div>
+          <h2>Agua De Valencia</h2>
+          <p>
+            <strong
+              >If you like suspense thrillers set in exotic places, you’ll enjoy
+              this escape to Valencia, Spain, where you’ll follow a debonair
+              former FBI agent as he attempts to save a damsel in
+              distress.</strong
+            >
+          </p>
+          <p>
+            On a typical summer evening in Valencia, a former FBI agent thinks
+            he might get lucky with a beautiful woman, but the evening is cut
+            short as he’s drawn into a kidnapping case.<br />&nbsp;
+          </p>
+          <p><strong>GET YOUR COPY TODAY:</strong></p>
+          <h5>
+            <a
+              href="https://www.amazon.com/AGUA-VALENCIA-Dean-Atwood-ebook/dp/B01NAEDJ8H/"
+              target="_blank"
+              ><i class="fa fa-amazon" aria-hidden="true"></i> Amazon</a
+            >
+          </h5>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="copyright">
+        <p>© <span id="current-year">2021</span> Dean Atwood</p>
+      </div>
+    </footer>
+
+    <script>
+      document.getElementById("current-year").textContent =
+        new Date().getFullYear();
+    </script>
+  </body>
+</html>
